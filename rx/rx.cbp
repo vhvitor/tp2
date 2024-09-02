@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rx" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/rx" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/rx" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/arrivalsimulation.h" />
+		<Unit filename="include/dispatcher.h" />
+		<Unit filename="include/doublylinkedlist.h" />
+		<Unit filename="include/eventmanager.h" />
+		<Unit filename="include/exam.h" />
+		<Unit filename="include/exampriorityqueue.h" />
+		<Unit filename="include/filehandler.h" />
+		<Unit filename="include/genericqueue.h" />
+		<Unit filename="include/patient.h" />
+		<Unit filename="include/report.h" />
+		<Unit filename="include/rxmachinesimulation.h" />
+		<Unit filename="main/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/arrivalsimulation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dispatcher.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/doublylinkedlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/eventmanager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/exam.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/exampriorityqueue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/filehandler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/genericqueue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/patient.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/report.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rxmachinesimulation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
